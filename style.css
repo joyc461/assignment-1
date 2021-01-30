@@ -36,6 +36,10 @@ ul li a:hover{
     color:#4ab4b4cc;
 }
 
+.nav-container{
+    height:88px;
+}
+
 .nav-container ul{
 
     align-items:center;
@@ -53,6 +57,8 @@ ul li a:hover{
 font-weight:bold;
 color:#68c6e3cf;
 }
+
+
 
 .image-logo img{
 
@@ -123,6 +129,7 @@ color:#68c6e3cf;
     height:400px;
     width:100%;
     display:flex;
+    position:relative;
     }
 
 .left-section{
@@ -193,7 +200,7 @@ margin:0;
 height: 40px;
 
 filter: contrast(65%);
-margin: 20px 16px;
+margin: 20px 17px;
 }
 
 .class-list{
