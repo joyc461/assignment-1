@@ -200,7 +200,7 @@ margin:0;
 height: 40px;
 
 filter: contrast(65%);
-margin: 20px 17px;
+margin: 20px 20px;
 }
 
 .class-list{
@@ -226,5 +226,47 @@ margin-right: 10px;
 
 }
 
+.footer{
 
+    position:relative;
+    top:28px;
+   /* height:300px;*/
+    width:100%;
+    overflow:hidden;
+    background-color: #1b1b1b;
+    display:flex;
+    justify-content:center;
+
+}
+
+.items{
+    height:250px;
+    width:250px;
+    border:2px solid white;
+    margin: 10px;
+    color:#86a1ae;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    font-weight: 600;
+
+}
+.items img{
+    height: 80px;
+    width:190px;
+    /*align-self:revert;*/
+    margin-top:-13px;
+    margin-left:-3px;
+}
+
+.items .texts-1{
+    color:white;
+}
+
+#items-2 .footer-ul{
+    padding:27px;
+    font-size:16px;
+    list-style: none;
+    
+}
 
