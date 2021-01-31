@@ -242,7 +242,7 @@ margin-right: 10px;
 .items{
     height:250px;
     width:250px;
-    border:2px solid white;
+    /*border:2px solid white;*/
     margin: 10px;
     color:#86a1ae;
     display:flex;
@@ -274,5 +274,13 @@ margin-right: 10px;
 
     list-style: none;
     margin-top: 23px;
-    
+
+}
+.footer .footer-logo-1 img{
+
+    height:36px;
+    width:38px;
+    margin-left:2px;
+    margin-top:-5px;
+    border-radius:6px;
 }
