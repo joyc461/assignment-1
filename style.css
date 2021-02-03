@@ -73,7 +73,7 @@ ul li a:hover {
   height: 400px;
   width: 66%;
   overflow: hidden;
-  border: 2px solid black;
+  /*border: 2px solid black;*/
   position: relative;
 
   margin: 24px auto;
@@ -179,7 +179,7 @@ ul li a:hover {
 .container-box .box-1 {
   height: 203px;
   width: 468px;
-  border: 2px solid black;
+  /*border: 2px solid black;*/
   border-radius: 5px;
   display: flex;
   background-image: linear-gradient(
@@ -189,8 +189,72 @@ ul li a:hover {
   );
 }
 
-.box-1 .list-item {
+.container-box .box-1 .list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+/*.box-1 .list-item {
   width: 50%;
+}*/
+
+.item-lists-1 img {
+  height: 74px;
+  width: 140px;
+  margin-top: -22px;
+  margin-left: -1px;
+}
+
+.list-item .item-lists-2 {
+  font-size: 20px;
+  margin-top: -20px;
+  color: whitesmoke;
+  font-weight: 550;
+  margin-left: 9px;
+}
+.list-item .item-lists-3 {
+  display: flex;
+}
+
+.item-lists-3 .lesson-logo {
+  margin-left: 10px;
+}
+.item-lists-3 .lesson-logo img {
+  height: 12px;
+  margin-top: -1px;
+  filter: brightness(50);
+}
+.item-lists-4 .videos-logo img {
+  filter: brightness(50);
+}
+.item-lists-5 .notes-logo img {
+  filter: brightness(50);
+}
+
+.item-lists-3 .item-3-heading {
+  margin-left: 10px;
+  color: whitesmoke;
+}
+.list-item .item-lists-4 {
+  display: flex;
+}
+.item-lists-4 .videos-logo {
+  margin-left: 8px;
+}
+.item-lists-4 .item-4-heading {
+  margin-left: 7px;
+  color: whitesmoke;
+}
+.list-item .item-lists-5 {
+  display: flex;
+}
+.item-lists-5 .notes-logo {
+  margin-left: 9px;
+}
+.item-lists-5 .item-5-heading {
+  margin-left: 8px;
+  color: whitesmoke;
 }
 
 .box-1 .img-item {
