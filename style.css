@@ -177,8 +177,8 @@ ul li a:hover {
   justify-content: space-between;
 }
 .container-box .box-1 {
-  height: 203px;
-  width: 468px;
+  height: 200px;
+  width: 467px;
   /*border: 2px solid black;*/
   border-radius: 5px;
   display: flex;
@@ -358,10 +358,11 @@ ul li a:hover {
 */
 .footer {
   margin-top: 28px;
-  /* height:300px;*/
+  height:316px;
   width: 100%;
   overflow: hidden;
   background-color: #1b1b1b;
+  margin-bottom:50px;
 }
 
 .footer-main {
@@ -372,15 +373,33 @@ ul li a:hover {
 }
 
 .copyright-container {
-  border-top: 0.5px solid white;
-}
-/*.copyright-container h3{
+  border-top: 0.5px solid #dfe4e8;
+  display:flex;
+  justify-content: space-between;
+  color: #86a1ae;
+  padding-top:10px;
 
-  }*/
+
+
+}
+.copyright-container .privacy-content{
+  display:flex;
+}
+
+.copyright-container .privacy-content .privacy{
+  margin-right:25px;
+
+}
+.copyright-container .privacy-content .terms{
+  margin-right:25px;
+
+}
+
+
 
 .footer .footer-ul-1 {
   list-style: none;
-  margin-top: 10px;
+  margin-top: 6px;
 }
 .footer .footer-logo-1 img {
   height: 36px;
@@ -398,12 +417,12 @@ ul li a:hover {
 .items {
   height: 250px;
   width: 250px;
-  /*border:2px solid white;*/
+ /* border:2px solid white;*/
   margin: 10px;
   color: #86a1ae;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
   font-weight: 600;
 }
 .items img {
@@ -422,5 +441,36 @@ ul li a:hover {
   padding: 27px;
   font-size: 16px;
   list-style: none;
-  margin-top: -15px;
+  margin-top: -18px;
+}
+#items-4 .flex-footer{
+  margin-top:18px;
+}
+
+#items-4 .flex-footer .testbook-app{
+  display:flex;
+  justify-content:space-evenly;
+}
+
+.testbook-app .testbook-icon img{
+  height: 38px;
+width: 38px;
+border-radius: 7px;
+margin-top: 6px;
+}
+
+#items-4 .flex-footer .current-affairs{
+  display: flex;
+justify-content: space-evenly;
+margin-top: 12px;
+}
+.current-affairs .current-affairs-icon img{
+  height: 38px;
+width: 38px;
+margin-top: 7px;
+}
+
+#items-4 .flex-footer .partners .partner-icons{
+  display:flex;
+  justify-content: space-evenly;
 }
