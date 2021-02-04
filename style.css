@@ -25,7 +25,7 @@ ul li a:hover {
 }
 
 .nav-container {
-  height: 88px;
+  height:auto;
 }
 
 .nav-container ul {
@@ -70,7 +70,7 @@ ul li a:hover {
 }
 
 .container-2 {
-  height: 400px;
+  height: 300px;
   width: 66%;
   overflow: hidden;
   /*border: 2px solid black;*/
@@ -308,9 +308,9 @@ ul li a:hover {
 }
 
 .ul-list {
-  margin-bottom: 50px;
-  margin-top: 20px;
-  font-size: 20px;
+  margin-bottom: 30px;
+  margin-top: 25px;
+  font-size: 19px;
 }
 #first-list {
   margin-right: 32px;
@@ -318,16 +318,14 @@ ul li a:hover {
 #btn-1 {
   align-self: center;
   /*margin-right: 16px;*/
-  padding: 6px 80px;
+  padding: 6px 75px;
   margin: 0;
 }
 
 .inner-content img {
-  width: 445px;
-  height: 40px;
-
-  filter: contrast(65%);
-  margin: 20px 20px;
+  width: 300px;
+  height: 175px;
+  margin: -48px 90px;
 }
 
 .class-list {
@@ -357,19 +355,19 @@ ul li a:hover {
 ===================================================
 */
 .footer {
-  margin-top: 28px;
+  /*margin-top: 28px;*/
   height:316px;
   width: 100%;
   overflow: hidden;
   background-color: #1b1b1b;
-  margin-bottom:50px;
+  /*margin-bottom:50px;*/
 }
 
 .footer-main {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  width: 60%;
+  width: 66%;
 }
 
 .copyright-container {
@@ -444,12 +442,13 @@ ul li a:hover {
   margin-top: -18px;
 }
 #items-4 .flex-footer{
-  margin-top:18px;
+  margin-top:14px;
 }
 
 #items-4 .flex-footer .testbook-app{
   display:flex;
   justify-content:space-evenly;
+  margin-left:-14px;
 }
 
 .testbook-app .testbook-icon img{
@@ -459,10 +458,16 @@ border-radius: 7px;
 margin-top: 6px;
 }
 
+#items-4 .our-app{
+  margin-top: 6px;
+margin-left: 6px;
+}
+
 #items-4 .flex-footer .current-affairs{
   display: flex;
 justify-content: space-evenly;
 margin-top: 12px;
+margin-left:-14px;
 }
 .current-affairs .current-affairs-icon img{
   height: 38px;
@@ -473,4 +478,169 @@ margin-top: 7px;
 #items-4 .flex-footer .partners .partner-icons{
   display:flex;
   justify-content: space-evenly;
+  margin-top:15px;
 }
+
+.partners .partner-icons .facebook img{
+  height: 30px;
+width: 31px;
+
+}
+.partners .partner-icons .twitter img{
+  height:33px;
+  width: 33px;
+
+}
+
+.partners .partner-icons .linkedin img{
+  height: 31px;
+  width: 31px;
+
+}
+.partners .partner-icons .instagram img{
+  width: 31px;
+  height: 31px;
+  border-radius: 14px;
+}
+.partners .partner-icons .youtube img{
+  height: 25px;
+  width: 30px;
+  border-radius: 7px;
+}
+.partners .follow-us{
+  margin-top: 35px;
+margin-left: 11px;
+}
+
+/* ================container-3==================*/
+
+.container-3{
+ /* height:100vh;*/
+  background: rgba(54,129,253,.1);
+  margin-top: -30px;
+}
+
+.container-3 .course-cards{
+  margin:auto;
+  width:66%;
+}
+.container-3 .course-cards .course-categories{
+  font-size:1.5rem;
+  margin-bottom:30px;
+  font-weight:600;
+  padding-top:30px;
+}
+
+.container-3 .course-dropdown .card-list{
+/*padding: 0 24px;*/
+height: 820px;
+width: 695px;
+margin: 0;
+background:#fff;
+overflow:auto;
+border-radius:4px;
+}
+
+.course-cards .course-dropdown{
+  display:flex;
+  justify-content: space-between;
+}
+
+.course-dropdown .dropdown-course-list{
+padding: 15px 0;
+background: #fff;
+width: 250px;
+height:575px;
+}
+.course-dropdown .dropdown-course-list .selected{
+width: 270px;
+border-radius: 4px;
+box-shadow: 0 12px 24px 0 rgba(54,117,222,.4);
+background-color: #0ad0f4;
+border: none;
+color: #fff;
+padding: 0 16px;
+line-height: 4;
+cursor: pointer;
+margin-bottom: 10px;
+font-size: 14px;
+}
+
+.course-dropdown .dropdown-course-list .name-selected{
+padding: 0 16px;
+line-height: 4;
+cursor: pointer;
+color: #3b4a54;
+margin-bottom: 10px;
+font-size: 14px;
+/*transition: all .3s cubic-bezier(.165,.84,.44,1);*/
+}
+.course-dropdown .card-list .card-list-items .card-list-img{
+width:43%;
+margin-right: 22px;
+}
+
+
+.course-dropdown .card-list .card-list-items .card-list-img img{
+border-radius: 4px;
+height:140px;
+width:280px;
+
+}
+
+.course-dropdown .card-list .card-list-items{
+  display:flex;
+  margin:23px 23px;
+}
+
+.badge-outline-success {
+  color: #059b8b;
+  border: 2px solid rgba(5,155,139,.3);
+  background-color: rgba(5,155,139,.1);
+}
+.badge-outline {
+  text-transform: uppercase;
+  font-size: 10px;
+  
+  border-radius: 4px;
+  line-height: 1.8;
+  padding: 5px 8px;
+  font-weight: 600;
+}
+
+.course-dropdown .card-list .card-list-text .badge-outline .icon-clock-green{
+background:url("https://testbook.com/assets/img/select/clock-green.svg") no-repeat;
+}
+.course-dropdown .card-list .card-list-text .badge-outline .icon{
+height: 11px;
+width: 11px;
+display: inline-block;
+vertical-align: middle;
+margin: 0 2px 1px 0;
+}
+
+.course-dropdown .card-list .card-list-text .course-name{
+  font-size: 18px;
+font-weight: 600;
+margin-bottom: 10px;
+color: #000;
+}
+.course-dropdown .card-list .card-list-text .inclusions{
+  display:flex;
+}
+.inclusions .youtube-course{
+  display:flex;
+}
+.inclusions .lesson-course{
+  display:flex;
+}
+
+.inclusions .lesson-course .lesson-course-logo{
+  padding-right:2px;
+}
+
+.inclusions .notes-course{
+  display:flex;
+}
+
+
