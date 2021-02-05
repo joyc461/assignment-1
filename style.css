@@ -643,4 +643,124 @@ color: #000;
   display:flex;
 }
 
+.counselling-session{
+  padding:40px 0;
+}
+
+.counselling-session .select-blurb{
+  padding:30px 42px 45px;
+  /*background-color:#005c55;*/
+  height:315px;
+  color:#fff;
+
+}
+.counselling-session .select-blurb::after{
+content: "";
+position: absolute;
+right: 42px;
+top: 0;
+bottom: 0;
+width: 385px;
+background-image: url("https://testbook.com/assets/img/select/request-a-call-svg.svg");
+background-repeat: no-repeat;
+background-position: right center;
+}
+.counselling-session .ui-card{
+background: #fff;
+ /*background-color: rgb(255, 255, 255);*/
+ background-color:#005c55;
+border-radius: 4px;
+position: relative;
+box-shadow: -1px 1px 4px 0 rgba(117,138,172,.12);
+}
+
+.counselling-session .counselling-row{
+  display:flex;
+  flex-wrap:wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.counselling-session .counselling-row .col-md-7{
+  padding-left:15px;
+}
+
+.col-md-7 .call-heading{
+  margin-bottom: 37.5px;
+font-size: 2.14rem;
+}
+.col-md-7 .ui-h1{
+  line-height:3rem;
+  font-weight:600;
+}
+.select-blurb .banner-submitted .sub-heading{
+  font-size: 15.9px;
+margin-bottom: 33px
+}
+.select-blurb .banner-submitted .d-md-flex{
+  display: flex;
+
+}
+.select-blurb .banner-submitted .d-md-flex .call-req::after{
+content: "+ 91";
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+color: #fff;
+font-size: 18px;
+text-align: center;
+line-height: 34px;
+width: 60px;
+opacity: .4;
+
+}
+.select-blurb .banner-submitted .d-md-flex .call-req{
+position: relative;
+margin-bottom: 0 !important;
+}
+.call-req input[type="text"]::placeholder{
+  color: #fff;
+  opacity: .5;
+  font-size: 1rem;
+}
+.call-req input[type="text"]{
+background: 0 0;
+font-size: 18px;
+padding: 0 7.5px 2px 60px;
+border: 1px solid rgba(255,255,255,.4);
+border-radius: 2px;
+width: 200px;
+outline: 0;
+height: 36px;
+letter-spacing: .5px;
+}
+
+
+.d-mad-flex label{
+display:inline-block;
+}
+
+.ui-btn-primary{
+  background: #0ad0f4;
+}
+.ui-btn{
+  padding:7.5px 30px;
+  line-height:1.4;
+  color:#fff;
+}
+.ml-22{
+  margin-left: 1.375rem;
+}
+.button-1{
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  border: 1px solid transparent;
+  font-size: 0.875rem;
+  border-radius: 0.25rem;
+
+}
+
+
+
 
