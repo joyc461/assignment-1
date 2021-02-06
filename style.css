@@ -262,6 +262,96 @@ ul li a:hover {
   z-index: 1;
 }
 
+/*=============suggested-course===============*/
+.suggested-course{
+  width: 66%;
+  height: 430px;
+  margin: 24px auto;
+
+}
+.suggested-course-row{
+  display: flex;
+  justify-content: space-between;
+}
+
+/*.suggested-course-row .card img{
+  width: 14rem;
+}*/
+.suggested-course-row .card{
+  width: 226px;
+}
+.suggested-course-row .card .card-body{
+  padding: 0;
+}
+.suggested-course-row .card .card-body .card-title{
+height: 32px;
+text-align: center;
+background-image: -webkit-gradient(linear,right top,left top,color-stop(99%,#91b86f),color-stop(-3%,#059b8b));
+color: #fff;
+font-weight: 501;
+padding-top: 3px;
+margin-bottom:0;
+}
+.suggested-course-row .card .card-body .card-text{
+color: #000;
+text-align:left;
+padding: 10px;
+text-align: left;
+}
+
+.card .class-content{
+  color: #86a1ae;
+  display:flex;
+  flex-direction: column;
+  margin: 8px;
+  font-weight: 501;
+}
+.class-content .live-class{
+display:flex;
+margin-bottom:6px;
+}
+
+.class-content .question-class{
+display:flex;
+margin-bottom:6px;
+}
+
+.class-content .notes-class{
+display:flex;
+}
+
+.card .class-content img{
+  height: 14px;
+}
+
+.card .class-content .question-class img{
+  margin-left: 3px;
+}
+.card .class-content .notes-class img{
+  margin-left: 2px;
+}
+.card .class-content .live-text{
+margin-left: 12px;
+margin-top: -6px;
+}
+.card .class-content .question-text{
+margin-left: 15px;
+margin-top: -6px;
+}
+.card .class-content .notes-text{
+margin-top: -7px;
+margin-left: 14px;
+}
+
+
+
+
+
+
+
+
+
+/*============= main-container================*/
 .main-container {
   background-image: linear-gradient(108deg, #130725, #33076a);
   height: 400px;
