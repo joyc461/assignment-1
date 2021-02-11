@@ -1,0 +1,20 @@
+@media screen and (max-width:992px){
+.btn{
+    margin-left: 23px;
+}
+.button-btn{
+    display:flex;
+    justify-content: center;
+    margin-top:11px;
+}
+.left-section{
+    display: none;
+}
+.right-section{
+    display: none;
+}
+.mid-content{
+    margin: auto;
+    width: auto;
+}
+}
